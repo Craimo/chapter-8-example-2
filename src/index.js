@@ -39,7 +39,7 @@ app.get("/video", async (req, res) => { // Route for streaming video.
 
 if (require.main === module) {
     //
-    // When this script is run as the entry point, starts the HTTP server.
+    // When this script is run as the entry point, starts the HTTP server..
     //
     app.listen(PORT, () => {
         console.log(`Microservice online.`);
